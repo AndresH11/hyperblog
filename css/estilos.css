@@ -12,6 +12,7 @@ body
 #cabecera
 {
     background: #33A;
+    font-weight: bold;
     margin:0;
     padding: 0.5em;
     color: white;
@@ -31,11 +32,18 @@ body
     border: 1px solid #ddd;
     margin: 0 auto;
 }
-#container
+#container h1
 {
     font-size: 20px;
 }
 #post
 {
     padding: 1em;
+}
+#footer
+{
+    background: #777;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
 }
